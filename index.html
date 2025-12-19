@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>WhatsApp Preview Index</title>
+
+    <!-- BASIC SEO -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Test WhatsApp link previews using Open Graph metadata." />
+
+    <!-- OPEN GRAPH TAGS (USED BY WHATSAPP) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="WhatsApp Preview Test" />
+    <meta property="og:description" content="This page is used to test WhatsApp link preview images." />
+    <meta property="og:image" content="https://via.placeholder.com/1200x630.png?text=WhatsApp+Preview" />
+    <meta property="og:url" content="https://akshitwiom.github.io/link-preview-test/" />
+
+    <!-- OPTIONAL: ANDROID DEEP LINK -->
+    <meta property="al:android:url" content="yourapp://home" />
+    <meta property="al:android:package" content="com.example.yourapp" />
+
+    <!-- OPTIONAL: IOS DEEP LINK -->
+    <meta property="al:ios:url" content="yourapp://home" />
+    <meta property="al:ios:app_name" content="Your App" />
+    <meta property="al:ios:app_store_id" content="123456789" />
+
+    <style>
+        body {
+          font-family: Arial, sans-serif;
+          padding: 32px;
+          background: #f9fafb;
+          color: #111827;
+        }
+        .card {
+          max-width: 600px;
+          margin: auto;
+          background: #ffffff;
+          border-radius: 12px;
+          padding: 24px;
+          box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+        }
+        h1 {
+          margin-top: 0;
+        }
+        a {
+          color: #2563eb;
+          text-decoration: none;
+        }
+        a:hover {
+          text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+<div class="card">
+    <h1>WhatsApp Link Preview – Index</h1>
+    <p>
+        This <code>index.html</code> exists mainly to test WhatsApp previews.
+        When this URL is shared on WhatsApp, the preview image and text come
+        from the <strong>Open Graph meta tags</strong> in the <code>&lt;head&gt;</code>.
+    </p>
+
+    <h3>How to use</h3>
+    <ol>
+        <li>Host this file on <strong>GitHub Pages</strong></li>
+        <li>Replace <code>&lt;username&gt;</code> and <code>&lt;repo-name&gt;</code> in <code>og:url</code></li>
+        <li>Share the page URL on WhatsApp</li>
+    </ol>
+
+    <h3>Task pages</h3>
+    <p>
+        For per-task previews, create pages like:
+    </p>
+    <ul>
+        <li><code>/task/123.html</code></li>
+        <li><code>/task/124.html</code></li>
+    </ul>
+
+    <p>
+        Each task page should have its own <code>og:image</code> pointing to the
+        uploaded screenshot.
+    </p>
+</div>
+</body>
+</html>
